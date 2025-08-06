@@ -71,7 +71,7 @@ export default function Home() {
     const linkWebm = document.createElement('link');
     linkWebm.rel = 'preload'; // Note: prefetch au lieu de preload
     linkWebm.as = 'video';
-    linkWebm.href = '/final_memojis.webm';
+    linkWebm.href = '/final-memoji.mp4';
     document.head.appendChild(linkWebm);
 
     const linkMp4 = document.createElement('link');
@@ -127,7 +127,7 @@ export default function Home() {
       </motion.div>
 
       {/* centre memoji */}
-      <div className="relative z-10 h-52 w-48 overflow-hidden sm:h-100 sm:w-80">
+      <div className="relative z-10 h-65 w-48 overflow-hidden sm:h-100 sm:w-80">
         <Image
           src="/avatar.svg"
           alt="Hero memoji"

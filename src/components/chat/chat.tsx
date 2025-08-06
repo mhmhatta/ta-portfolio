@@ -86,7 +86,7 @@ const Avatar = dynamic<AvatarProps>(
               <img
                 src="/avatar.svg"
                 alt="iOS avatar"
-                className="h-full w-full scale-[1.8] object-contain"
+                className="h-full w-full scale-[0.8] object-contain"
               />
             ) : (
               <video
