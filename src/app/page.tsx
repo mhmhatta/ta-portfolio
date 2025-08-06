@@ -64,7 +64,7 @@ export default function Home() {
   useEffect(() => {
     // Précharger les assets du chat en arrière-plan
     const img = new window.Image();
-    img.src = '/landing-memojis.png';
+    img.src = '/avatar.svg';
 
     // Précharger les vidéos aussi
     const linkWebm = document.createElement('link');
