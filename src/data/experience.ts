@@ -36,7 +36,7 @@ export const organizationExp = [
     ]
   },
   {
-    name: "Himpunan Mahasiswa Teknik Informatika (HIMATIF) USU",
+    name: "Himpunan Mahasiswa Teknologi Informasi (HIMATIF) USU",
     scope: "University Scope",
     role: "Staff of Pengembangan Sumber Daya Mahasiswa (PSDM) Division",
     period: "Jun 2022 - May 2023",
