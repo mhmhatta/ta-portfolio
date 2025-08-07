@@ -1,5 +1,4 @@
 import Image from 'next/image';
-// --- 1. Impor ikon baru untuk link ---
 import { ChevronRight, Link, Github, FileText, Globe } from 'lucide-react';
 import { Separator } from '@/components/ui/separator';
 
@@ -40,6 +39,10 @@ const PROJECT_CONTENT = [
         { src: '/biomed3.png', alt: 'System architecture diagram' },
         { src: '/biomed4.jpg', alt: 'System architecture diagram' },
     ],
+    supervisor: [
+      { name: 'Prof. Dr. Romi Fadillah Rahmat B.Comp.Sc., M.Sc.', role : 'Supervisor 1 - Vice Dean at Fasilkom-TI USU'},
+      { name: 'Dr. Erna Budhiarti Nababan M.IT', role : 'Supervisor 2 - Head Of Master Program In Data Science And Artificial Intelligence at Fasilkom-TI USU'},
+    ]
   },
   {
     title: 'BUMA AI Chatbot',
@@ -74,6 +77,7 @@ const PROJECT_CONTENT = [
         { src: '/buma5.jpg', alt: 'BUMA AI chatbot interface' },
         { src: '/buma6.jpg', alt: 'BUMA AI chatbot interface' },
     ],
+    supervisor: 'Raden Vicky - Technical Solution Specialist at BUMA'
   },
   {
     title: 'AI Dental Disease Detection',
@@ -97,6 +101,7 @@ const PROJECT_CONTENT = [
         { src: '/ddd3.png', alt: 'Dental disease detection interface' },
         { src: '/ddd4.png', alt: 'Dental disease detection interface' },
     ],
+    supervisor: 'Miss Hafizatul Hanin bt Hamzah - Lecturer at Universiti Teknologi Mara (UiTM), Malaysia',
   },
 ];
 
