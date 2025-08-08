@@ -3,6 +3,8 @@
 import { motion, Variants } from 'framer-motion';
 import Image from 'next/image';
 import React from 'react';
+import { Button } from '@/components/ui/button';
+import { Download } from 'lucide-react';
 
 export function Presentation() {
   // Personal information
@@ -43,6 +45,11 @@ export function Presentation() {
     },
   },
 };
+
+  const handleDownload = () => {
+    // Pastikan file CV.pdf ada di dalam folder /public
+    window.open('/CV.pdf', '_blank');
+  };
 
   return (
     <div className="mx-auto w-full max-w-5xl py-6 font-sans">
@@ -105,6 +112,13 @@ export function Presentation() {
             transition={{ delay: 0.6, duration: 0.5 }}
             className="mt-4 flex flex-wrap gap-2"
           >
+            {/* Download CV */}
+            <Button onClick={handleDownload}>
+              <Download className="mr-2 h-4 w-4" />
+              Download CV
+            </Button>
+
+            <div className="flex flex-wrap gap-2"></div>
             {['AI', 'Developer', 'Medan', 'Adventure', 'Data Enthusiast'].map(
               (tag) => (
                 <span
