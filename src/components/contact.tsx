@@ -23,6 +23,10 @@ export function Contact() {
         name: 'Github',
         url: 'https://github.com/mhmhatta',
       },
+      {
+        name: 'Discord',
+        url: 'https://discordapp.com/users/701340589085687908',
+      },
     ],
   };
 

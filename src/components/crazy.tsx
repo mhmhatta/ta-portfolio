@@ -4,7 +4,7 @@ import React from 'react';
 import { Photos, PhotoItem } from './photos';
 
 const Crazy = () => {
-  const sportPhotos: PhotoItem[] = [
+  const friendPhotos: PhotoItem[] = [
     {
       src: '/me.jpg',
       alt: 'friendship journey',
@@ -19,7 +19,7 @@ const Crazy = () => {
           My Kind of Adventure: A Friendship Journey
         </h2>
       </div>
-      <Photos photos={sportPhotos} />
+      <Photos photos={friendPhotos} />
     </div>
   );
 };

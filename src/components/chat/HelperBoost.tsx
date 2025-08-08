@@ -50,7 +50,6 @@ const questionConfig = [
   { key: 'Contact', color: '#C19433', icon: UserRoundSearch },
 ];
 
-// Helper drawer data
 const specialQuestions = [
   'Tell me about your travel adventures.',
   'What is this biomedical chatbot project?',

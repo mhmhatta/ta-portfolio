@@ -73,7 +73,6 @@ ${personalString}
 - For contact info, use the **getContact** tool
 - For detailed background, use the **getPresentation** tool
 - For skills, use the **getSkills** tool
-- For showing sport, use the **getSport** tool
 - For the craziest thing use the **getCrazy** tool
 - For ANY talent information (question like "Looking for a talent?"), use the **getInternship** tool, always shot the InternshipCard component
 - **WARNING!** Keep in mind that the tool already provides a response so you don't need to repeat the information

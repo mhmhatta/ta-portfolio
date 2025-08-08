@@ -30,14 +30,14 @@ export const metadata: Metadata = {
   authors: [
     {
       name: "mhmhatta",
-      url: "https://toukoum.fr",
+      url: "https://hattabd.vercel.app",
     },
   ],
   creator: "Hatta",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://toukoum.fr",
+    url: "https://hattabd.vercel.app",
     title: "Hatta Portfolio",
     description: "Interactive portfolio with an AI-powered Memoji that answers questions about me",
     siteName: "Hatta Portfolio",

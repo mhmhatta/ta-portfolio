@@ -19,7 +19,7 @@ export const getInternship = tool({
 📬 **Contact me** via:
 - Email: muhammad.hatta18@gmail.com
 - LinkedIn: [linkedin.com/in/muhammadhattaabdillah](https://www.linkedin.com/in/muhammadhattaabdillah/)
-- GitHub: [github.com/raphaelgiraud](https://github.com/mhmhatta)
+- GitHub: [github.com/mhmhatta](https://github.com/mhmhatta)
 
 Let's build something cool together ✌️
     `;

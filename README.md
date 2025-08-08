@@ -1,9 +1,9 @@
-![image](assets/readme-photo.png)
+![image](assets/readme-photo.jpg)
  
 # World's first AI portfolio 🤖✨  
 
 **Static portfolios are dead.**  
-So I built [toukoum.fr](https://toukoum.fr).
+So I built [hattabd](https://hattabd.vercel.app).
 
 Instead of making you scroll endlessly, my portfolio adapts to *you*.  
 Ask a question — my AI avatar replies instantly.

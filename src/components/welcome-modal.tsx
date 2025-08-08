@@ -96,7 +96,7 @@ export default function WelcomeModal({ trigger }: WelcomeModalProps) {
                   </h3>
                   <p className="text-accent-foreground text-base leading-relaxed">
                     I'm so excited to present my{' '}
-                    <strong>AI Portfolio.</strong>
+                    <strong>LLM-based Portfolio.</strong>
                     <br /> Whether you're a recruiter, a friend, family member,
                     or just curious, feel free to ask anything you want!
                   </p>
@@ -117,6 +117,9 @@ export default function WelcomeModal({ trigger }: WelcomeModalProps) {
                     </strong>
                   </p>
                 </div>
+                <strong> 
+                This porfolio is inspired by Raphael Giraud's github (https://github.com/toukoum).
+              </strong> 
               </section>
             </div>
 

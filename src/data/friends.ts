@@ -1,5 +1,3 @@
-// src/data/friends.ts
-
 export const socialCircle = {
   family: {
     brother: "Abdi Ichsan (29), a Custom and Excise Employee in Batam, Indonesia.",
@@ -15,7 +13,15 @@ export const socialCircle = {
       {
         name: "Fayyadh",
         story: "one of inspired friends from college, currently working with one of company at Korea."
-      }
+      },
+      {
+        name: "Nadya Zahra (Nadya)",
+        story: "one of friends from college, we were in the same organization, GDGoC USU, She was the staff of Public Relations Division"
+      },
+      {
+        name: "Erick Lorus (Erick)",
+        story: "one of inspired friends from college, we were in the same organization, GDGoC USU, He was the Lead of GDGoC USU. He was also one of IISMA student exchange participants in 2024 at Aix-Marseille University, France."
+      },
     ],
     highSchool: [
       {
@@ -37,7 +43,8 @@ export const socialCircle = {
         story: "My best friend from junior high school, SMPN 20 Jakarta"
       },
       {
-        name: "Azka Versantariqh Lesmana (Azka)"
+        name: "Azka Versantariqh Lesmana (Azka)",
+        story: "My best friend from junior high school, SMPN 20 Jakarta, currently working at NAVY Military Indonesia."
       },
       {
         name: "Siti Nur Rohamah (Siti)"
