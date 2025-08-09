@@ -157,6 +157,23 @@ const ProjectContent = ({ project }: { project: ProjectProps }) => {
               ))}
             </div>
           </div>
+          <div className="pt-4">
+            <h3 className="mb-3 text-sm tracking-wide text-neutral-500 uppercase dark:text-neutral-400">
+              Supervisor
+            </h3>
+            <div className="text-secondary-foreground text-sm space-y-2">
+              {Array.isArray(projectData.supervisor) ? (
+                projectData.supervisor.map((s, index) => (
+                  <div key={index}>
+                    <p className="font-semibold">{s.name}</p>
+                    <p className="text-xs text-muted-foreground">{s.role}</p>
+                  </div>
+                ))
+              ) : (
+                <p>{projectData.supervisor}</p>
+              )}
+            </div>
+          </div>
         </div>
       </div>
 

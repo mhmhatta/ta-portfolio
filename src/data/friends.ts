@@ -20,7 +20,7 @@ export const socialCircle = {
       },
       {
         name: "Erick Lorus (Erick)",
-        story: "one of inspired friends from college, we were in the same organization, GDGoC USU, He was the Lead of GDGoC USU. He was also one of IISMA student exchange participants in 2024 at Aix-Marseille University, France."
+        story: "one of inspired friends from college, we were in the same organization, GDGoC USU, He was the Lead of GDGoC USU. He was also one of IISMA student exchange participants in Aug - Des 2024 at Aix-Marseille University, France."
       },
     ],
     highSchool: [

@@ -43,12 +43,12 @@ export async function POST(req: Request) {
     };
 
     const result = streamText({
-      model: google('gemini-2.5-flash-lite'),
+      model: google('gemini-1.5-flash-latest'),
       messages,
       toolCallStreaming: true,
       tools,
       maxSteps: 2,
-      maxTokens: 2000,
+      maxTokens: 2048,
     });
 
     return result.toDataStreamResponse({
