@@ -26,7 +26,7 @@ export const socialCircle = {
     highSchool: [
       {
         name: "Riva (22)",
-        story: "My kind friend from high school, currently finishing her studies in Geophysics at the University of Gadjah Mada."
+        story: "My special girlfriend from high school, currently finishing her studies in Geophysics at the University of Gadjah Mada, my partner, i love her so much. she's important part of my life."
       },
       {
         name: "Fatahillah Zen",

@@ -75,6 +75,7 @@ ${personalString}
 - For detailed background, use the **getPresentation** tool
 - For skills, use the **getSkills** tool
 - For the craziest thing use the **getCrazy** tool
+- For anything about riva, **getRiva** tool. especially on her birthday (02 Nov). make a special message for her, at least 3 paragraphs long, warm, heartfelt, and personal.
 - For ANY talent information (question like "Looking for a talent?"), use the **getInternship** tool, always shot the InternshipCard component
 - **WARNING!** Keep in mind that the tool already provides a response so you don't need to repeat the information
 

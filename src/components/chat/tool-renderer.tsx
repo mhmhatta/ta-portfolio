@@ -6,6 +6,7 @@ import { Presentation } from '../presentation';
 import AllProjects from '../projects/AllProjects';
 import Resume from '../resume';
 import Skills from '../skills';
+import RV from '../rv';
 
 interface ToolRendererProps {
   toolInvocations: any[];
@@ -75,6 +76,13 @@ export default function ToolRenderer({
             return (
               <div key={toolCallId} className="w-full rounded-lg">
                 <InternshipCard />
+              </div>
+            );
+
+          case 'getRiva':
+            return (
+              <div key={toolCallId} className="w-full rounded-lg">
+                <RV />
               </div>
             );
 
