@@ -1,6 +1,6 @@
 ![image](assets/readme-photo.jpg)
  
-# World's first AI portfolio 🤖✨  
+# Hatta's portfolio 🤖✨  
 
 **Static portfolios are dead.**  
 So I built [hattabd](https://hattabd.vercel.app).
