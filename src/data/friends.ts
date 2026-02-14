@@ -7,7 +7,7 @@ export const socialCircle = {
   friendships: {
     college: [
       {
-        name: "Felix (20)",
+        name: "Felix (21)",
         story: "My ride-or-die friend; we met during the student exchange program in Malaysia and have been inseparable ever since."
       },
       {
@@ -25,7 +25,7 @@ export const socialCircle = {
     ],
     highSchool: [
       {
-        name: "Riva (22)",
+        name: "Riva (23 y.o)",
         story: "My special girlfriend from high school, currently finishing her studies in Geophysics at the University of Gadjah Mada, my partner, i love her so much. she's important part of my life."
       },
       {
@@ -47,7 +47,8 @@ export const socialCircle = {
         story: "My best friend from junior high school, SMPN 20 Jakarta, currently working at NAVY Military Indonesia."
       },
       {
-        name: "Siti Nur Rohamah (Siti)"
+        name: "Siti Nur Rohamah (Siti)",
+        story: "My best friend from junior high school, SMPN 20 Jakarta"
       },
       {
         name: "Ikhsanudin (Ikhsan)",
@@ -68,7 +69,7 @@ export const socialCircle = {
     },
     {
       name: "The M1-3-14 Group",
-      members: ["Rafie Akbar, S.H, S.Pd", "Ari Ghazy, S.H", "Rafly Ritonga, S.Kom", "me"],
+      members: ["Rafie Akbar, S.H, S.Pd", "Ari Ghazy, S.H", "Rafly Ritonga, S.Kom", "myself (Hatta)"],
       story: "A name I will always remember. We were randomly brought together in apartment unit M1-3-14 during my student exchange in Malaysia. For one semester, we navigated countless joys and challenges together and became primary adventure buddies. An unforgettable part of my journey."
     },
     {

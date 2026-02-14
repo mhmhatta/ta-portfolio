@@ -8,9 +8,9 @@ import Image from 'next/image';
 export function Resume() {
   const resumeDetails = {
     title: "Hatta's Resume",
-    description: 'Software Developer • AI & Data Enthusiast',
+    description: 'Associate AI Engineer | Computer Science Graduate | AI & Machine Learning Enthusiast',
     fileType: 'PDF',
-    lastUpdated: 'Aug 2025',
+    lastUpdated: 'Feb 2026',
     fileSize: '252 KB',
     previewImageSrc: '/CV-Preview.jpg',
     downloadUrl: '/CV.pdf',

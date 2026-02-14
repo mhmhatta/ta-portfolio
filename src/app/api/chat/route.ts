@@ -9,6 +9,8 @@ import { getProjects } from './tools/getProjects';
 import { getResume } from './tools/getResume';
 import { getSkills } from './tools/getSkills';
 import { getRiva } from './tools/getRiva';
+import { getValentineRv } from './tools/getValentineRv';
+
 
 export const maxDuration = 30;
 
@@ -42,6 +44,7 @@ export async function POST(req: Request) {
       getCrazy,
       getInternship,
       getRiva,
+      getValentineRv
     };
 
     const result = streamText({

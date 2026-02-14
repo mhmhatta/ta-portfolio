@@ -47,7 +47,6 @@ export function Presentation() {
 };
 
   const handleDownload = () => {
-    // Pastikan file CV.pdf ada di dalam folder /public
     window.open('/CV.pdf', '_blank');
   };
 

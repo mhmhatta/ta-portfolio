@@ -22,5 +22,5 @@ export const skills = {
     "Creativity",
     "Focus"
   ],
-  spokenLanguages: ["Indonesian (Native)", "English (Fluent)", "Malay (Fluent)", "Arabic (Proficient)"]
+  spokenLanguages: ["Indonesian (Native)", "English (Fluent)", "Malay (Fluent)", "Arabic (Proficient)", "German (Basic)"]
 };

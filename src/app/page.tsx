@@ -2,7 +2,6 @@
 
 import FluidCursor from '@/components/FluidCursor';
 import { Button } from '@/components/ui/button';
-import { GithubButton } from '@/components/ui/github-button';
 import WelcomeModal from '@/components/welcome-modal';
 import { motion, Variants } from 'framer-motion';
 import {
@@ -24,7 +23,6 @@ const questions = {
   Skills: 'What are your skills? Give me a list of your soft and hard skills.',
   Fun: 'What are your hobbies? What do you like to do for fun?',
   Contact: 'How can I contact you?',
-  rv: 'Riva birthday message',
 } as const;
 
 const questionConfig = [
@@ -33,7 +31,6 @@ const questionConfig = [
   { key: 'Skills', color: '#856ED9', icon: Layers },
   { key: 'Fun', color: '#B95F9D', icon: PartyPopper },
   { key: 'Contact', color: '#C19433', icon: UserRoundSearch },
-  { key: 'rv', color: '#0ce9d3ff', icon: PartyPopper },
 ] as const;
 
 /* ---------- component ---------- */
@@ -124,7 +121,7 @@ export default function Home() {
           Hey, There👋
         </h2>
         <h1 className="text-4xl font-bold sm:text-5xl md:text-6xl lg:text-7xl">
-          I'm Hatta
+          I&apos;m Hatta
         </h1>
       </motion.div>
 

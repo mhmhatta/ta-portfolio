@@ -9,18 +9,23 @@ import Skills from '../skills';
 import RV from '../rv';
 
 interface ToolRendererProps {
-  toolInvocations: any[];
+  toolInvocations: unknown[];
   messageId: string;
+}
+
+interface ToolInvocation {
+  toolCallId: string;
+  toolName: string;
+  result?: unknown;
 }
 
 export default function ToolRenderer({
   toolInvocations,
-  messageId,
 }: ToolRendererProps) {
   return (
     <div className="w-full transition-all duration-300">
       {toolInvocations.map((tool) => {
-        const { toolCallId, toolName } = tool;
+        const { toolCallId, toolName } = tool as ToolInvocation;
 
         // Return specialized components based on tool name
         switch (toolName) {
@@ -79,7 +84,7 @@ export default function ToolRenderer({
               </div>
             );
 
-          case 'getRiva':
+          case 'getValentineRv':
             return (
               <div key={toolCallId} className="w-full rounded-lg">
                 <RV />
@@ -88,6 +93,7 @@ export default function ToolRenderer({
 
           // Default renderer for other tools
           default:
+            const typedTool = tool as ToolInvocation;
             return (
               <div
                 key={toolCallId}
@@ -100,12 +106,12 @@ export default function ToolRenderer({
                   </span>
                 </div>
                 <div className="mt-2">
-                  {typeof tool.result === 'object' ? (
+                  {typeof typedTool.result === 'object' ? (
                     <pre className="bg-secondary/20 overflow-x-auto rounded p-3 text-sm">
-                      {JSON.stringify(tool.result, null, 2)}
+                      {JSON.stringify(typedTool.result, null, 2)}
                     </pre>
                   ) : (
-                    <p>{String(tool.result)}</p>
+                    <p>{String(typedTool.result)}</p>
                   )}
                 </div>
               </div>
